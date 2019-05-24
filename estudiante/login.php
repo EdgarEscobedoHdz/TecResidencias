@@ -10,6 +10,7 @@
     <!--Nombre de la página-->
     <title>Residencias | Login</title>
 
+    <link rel="shortcut icon" href="../img/itsicono3.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
   </head>
 
@@ -20,7 +21,7 @@
     <header>
       <div class="container">
         <div id="branding">
-          <h1>Instituto Tecnológico de not Saltillo</h1>
+          <h1>Instituto Tecnológico de Saltillo</h1>
         </div>
         <div id="logoTec">
           <img src="../img/itsicono3.png">
@@ -29,10 +30,13 @@
     </header>
 
     <!--empieza la sección del form-->
+    <div class="container">
+      <h1 id="h1">Inicia sesión para entrar al programa de Residencias</h1>
+    </div>
+
     <div class="imgContainer">
       <section class="container">
         <div class="formLogin">
-          <h1>Inicia sesión para entrar al programa de Residencias</h1>
           <form action="../scripts/validacionLogin.php " method="post" >
             <div class="cuadroLogin">
               <input class="txtField" type="text" name="user" placeholder="Número de Control">

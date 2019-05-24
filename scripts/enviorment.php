@@ -2,7 +2,6 @@
 $host='localhost';
 $user='root';
 $pass='fernini5';
-$db='tec';
+$db='test';
 $port='3306';
 ?>
-

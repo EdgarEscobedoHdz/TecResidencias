@@ -4,7 +4,7 @@ body{
   margin: 0;
   font-family: arial;
   background-color: #c9c9c9;
-  min-width: 300px;
+  min-width: 426px;
 }
 
 .container{
@@ -13,11 +13,9 @@ body{
   margin: auto;
   overflow: hidden;
   z-index: 100;
-
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
+/*
 input, button{
   color: black;
   font-family: arial;
@@ -33,12 +31,13 @@ input, button{
 button{
   width: 100px;
 }
+*/
 
 /*HEADER*/
 header{
   margin:0;
   padding: 0;
-  min-width: 420px;
+  min-width: 426px;
   min-height: 90px;
   background-color: rgb(91, 0, 33);
   border-bottom: #959595 10px solid;
@@ -81,12 +80,12 @@ header #logoTec img{
   min-height: 50px;
   background-color: rgb(99, 99, 99);
   text-align: center;
-  min-width: 420px;
+  min-width: 426px;
 }
 
 .tablaUsuarioYFecha{
   margin: auto;
-  margin-top: 13px;
+  margin-top: 5px;
   min-width: 200px;
 }
 
@@ -98,48 +97,75 @@ header #logoTec img{
   min-width: 20px;
 }
 
-/*FORM*/
-.cuadroForm{
-  margin: auto;
-  padding: 0;
-  min-width: 200px;
-  max-width: 500px;
-  min-height: 350px;
-  text-align: center;
 
-  /*Colores de fondo y bordes*/
-  background-color: rgba(71, 0, 0, 0.66);
-  border-color: rgb(102, 12, 23);
-  border-style: solid;
-  border-radius: 10px;
-
-  /*Separación del header*/
+/*SECCIONES GUINDA*/
+.seccionGuinda{
+  margin:auto;
   margin-top: 20px;
-  /*Separación del footer*/
-  margin-bottom: 20px;
-}
-
-/*manipulacion de tabla*/
-.tdIzquierdo{
-  text-align: right;
-}
-
-.tablaDeContenido{
-  margin: auto;
-
-  /*Separación del borde del cuadro semitransparente*/
-  margin-top: 10px;
-
-  min-width: 200px;
-}
-
-.tablaDeContenido#textarea{
-  max-width: 10px;
-  min-width: 10px;
-}
-
-.tablaDeContenido .date{
+  min-width: 400px;
+  background-color: rgb(98, 38, 60);
   text-align: center;
+  color: white;
+
+  /*Parte para hacer el recuadro*/
+  width: 90%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.seccionGuinda .box{
+  width: 20%;
+  min-width: 120px;
+  margin: auto;
+  margin-top: 15px;
+  float: left;
+  /*margin-left: 13%;*/
+}
+
+.seccionGuinda .container{
+  text-align: center;
+}
+
+.seccionGuinda img{
+  max-height: 50px;
+}
+
+.links{
+  text-align: left;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+/*ARCHIVO ADJUNTO*/
+.adjuntarArchivo{
+  margin:0;
+  padding: 0;
+  min-width: 400px;
+  text-align: left;
+  display: inline;
+}
+
+.adjuntarArchivo p{
+  margin: 0;
+  padding: 0;
+  min-width: 280px;
+  max-width: 280px;
+}
+
+.adjuntarArchivo input, .adjuntarArchivo button{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  min-width: 30px;
+}
+
+.adjuntarArchivo input{
+  margin-left: 0;
 }
 
 /*Footer*/
@@ -150,7 +176,7 @@ footer{
   background-color: #340000;
   color: white;
   text-align: center;
-  min-width: 420px;
+  margin-top: 20px;
 }
 
 footer p{

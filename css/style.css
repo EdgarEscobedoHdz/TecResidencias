@@ -12,6 +12,12 @@ body{
   margin: auto;
   overflow: hidden;
   z-index: 100;
+  text-align: center;
+}
+
+#h1{
+  font-size: 25px;
+  margin-top: 50px;
 }
 
 input, button{
@@ -73,12 +79,23 @@ header #logoTec img{
 
 }
 
+/*CSS DEL NOMBRE DE USUARIO Y FECHA Y HORA ACTUAL*/
+.usuarioYFecha{
+  margin-top: 50px;
+  height: 800px;
+  background-color: blue;
+}
+
+
 /*Container que muestra la imagen debajo de todos los elementos*/
 .imgContainer{
-  z-index: 1;
-  background: url("../img/itsiconoMonocromo.png") no-repeat 105% 150%;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  margin-top: 7%;
+  background: url("../img/itsiconoMonocromo.png") no-repeat 105% 100%;
   background-size: 200px;
-  min-height: 320px;
+  min-height: 10px;
 }
 
 /*CUADRO FORM DEL LOGIN*/
@@ -100,6 +117,8 @@ header #logoTec img{
   border-radius: 15px;
   border-style: solid;
   border-color: rgb(102, 12, 23);
+
+  /*Para separar al cuadro del footer en modo responsive*/
 }
 
 .cuadroLogin input, .cuadroLogin button{
@@ -113,17 +132,19 @@ header #logoTec img{
   background-color: white;
 }
 
+.cuadroLogin .date{
+  text-align: center;
+}
 
 
 /*Footer*/
 footer{
-  padding: 0;
-  margin: 0;
+  width: 100%;
+  bottom: 0px;
   min-height: 50px;
   background-color: #340000;
   color: white;
   text-align: center;
-  margin-top: -20px;
 }
 
 footer p{
